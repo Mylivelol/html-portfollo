@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BikeZone - חנות האופניים שלך</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f3f3f3;
+      color: #333;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 1em;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #444;
+      padding: 0.5em;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1em;
+    }
+    .hero {
+      background-image: url('https://via.placeholder.com/1500x400');
+      background-size: cover;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      margin-bottom: 20px;
+    }
+    .hero h1 {
+      font-size: 3em;
+      text-align: center;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-gap: 20px;
+      padding: 20px;
+      margin: 20px;
+    }
+    .product {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    footer {
+      text-align: center;
+      background-color: #333;
+      color: #fff;
+      padding: 1em;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BikeZone - חנות האופניים שלך</h1>
+  </header>
+  <nav>
+    <a href="#">בית</a>
+    <a href="#">אופניים חשמליים</a>
+    <a href="#">אופני הרים</a>
+    <a href="#">אביזרים</a>
+    <a href="#">אודות</a>
+    <a href="#">צור קשר</a>
+  </nav>
+  <div class="hero">
+    <h1>גלו את האופניים הטובים ביותר עבורכם</h1>
+  </div>
+  <div class="products">
+    <div class="product">
+      <img src="https://via.placeholder.com/200x200" alt="אופני עיר">
+      <h3>אופני עיר</h3>
+      <p>מחיר: $500</p>
+      <button>הוסף לעגלה</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/200x200" alt="אופני נשים">
+      <h3>אופני נשים</h3>
+      <p>מחיר: $450</p>
+      <button>הוסף לעגלה</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/200x200" alt="אופני ילדים">
+      <h3>אופני ילדים</h3>
+      <p>מחיר: $250</p>
+      <button>הוסף לעגלה</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/200x200" alt="אביזרים">
+      <h3>אביזרים</h3>
+      <p>מחיר: $50 - $150</p>
+      <button>הוסף לעגלה</button>
+    </div>
+  </div>
+  <footer>
+    <p>כל הזכויות שמורות &copy; 2023 BikeZone</p>
+  </footer>
+</body>
+</html>
